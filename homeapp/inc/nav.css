@@ -1,0 +1,41 @@
+ul#menutopo {
+	height: 43px;
+	_padding-right: 1px;
+	list-style-type: none;
+        background-image: url(../img/menu_fundo.png);
+        background-repeat: repeat-x;
+        background-position: 0px 10px;
+}
+
+ul#menutopo li {
+	display: inline;
+}
+
+ul#menutopo li a {
+	width: 89px;
+	height: 29px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+        text-align: center;
+	overflow: hidden;
+        padding-top: 14px;
+        text-decoration: none;
+        color: #fff;
+}
+
+ul#menutopo li#home a { background-position: 0px 5px; }
+ul#menutopo li#cursos a { background-position: -99px 5px; }
+ul#menutopo li#painel a { background-position: -198px 5px; }
+ul#menutopo li#sigsaudew a { background-position: -198px 5px; }
+ul#menutopo li#contato a { background-position: -198px 5px; }
+
+ul#menutopo li#home a:hover { background-position: 0px 0px; background: url(../img/menu_fundo_hover.png) no-repeat; }
+ul#menutopo li#cursos a:hover { background-position: -198px 0px; background: url(../img/menu_fundo_hover.png) no-repeat; }
+ul#menutopo li#painel a:hover { background-position: -198px 0px; background: url(../img/menu_fundo_hover.png) no-repeat; }
+ul#menutopo li#sigsaudew a:hover { background-position: -198px 0px; background: url(../img/menu_fundo_hover.png) no-repeat; }
+ul#menutopo li#contato a:hover { background-position: -198px 0px; background: url(../img/menu_fundo_hover.png) no-repeat; }
+
+ul#menutopo li#this a {
+    background-position: 0px 0px; background: url(../img/menu_fundo_hover.png) no-repeat;
+}

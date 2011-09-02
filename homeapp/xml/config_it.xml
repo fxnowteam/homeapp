@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+	<snap_sound>assets/camera_sound.mp3</snap_sound>
+	<save_sound>assets/save_sound.mp3</save_sound>
+	<live_webcam_text>Webcam dal Vivo</live_webcam_text>
+	<snapshot_text>La tua Foto</snapshot_text>
+	<snap_screen_text><![CDATA[Clicca il tasto <font color="#ff9900" >SCATTA</font> per fare la foto]]></snap_screen_text>
+	<snap_btn txt_1="SCATTA" txt_2="SCATTA DI NUOVO" />
+	<save_btn txt_1="SALVA" txt_2="SALVATA" />
+	<saving_image_message><![CDATA[Salvataggio di immagine<br/>Prego aspettare!]]></saving_image_message>
+	<thank_you_message><![CDATA[La tua istantanea è stato salvata<br/><font color="#ff9900" >Grazie!</font>]]></thank_you_message>
+	<info_message><![CDATA[<b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</b>]]></info_message>
+	<no_webcam><![CDATA[Non hai webcam... clicca qui se vuoi vedere la galleria]]></no_webcam>
+	<allow_webcam><![CDATA[Per poter utlizzare questa applicazione si deve permettere che la tua webcam da utilizzare. È necessario ricaricare la pagina e fare clic su consenti.]]></allow_webcam>
+	<bg_color>333333</bg_color>
+	<live_webcam_bg_color>ffffff</live_webcam_bg_color>
+	<snap_bg_color>ffffff</snap_bg_color>
+	<watermark position="BOTTOM/RIGHT" >assets/watermark.png</watermark>
+	<timer>5</timer>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+	<snap_sound>assets/camera_sound.mp3</snap_sound>
+	<save_sound>assets/save_sound.mp3</save_sound>
+	<live_webcam_text>Webcam</live_webcam_text>
+	<snapshot_text>Pre-visualizacao</snapshot_text>
+	<snap_screen_text><![CDATA[Clique em <font color="#ff9900" >SNAP IT</font> para pré-visualizar.]]></snap_screen_text>
+	<snap_btn txt_1="SNAP IT" txt_2="SNAP NEW" />
+	<save_btn txt_1="SAVE IT" txt_2="SAVED" />
+	<saving_image_message><![CDATA[Salvando imagem<br/>Aguarde...]]></saving_image_message>
+	<thank_you_message><![CDATA[Sua foto está salva.<br/><font color="#ff9900" >Pode proceguir com o cadastro.</font>]]></thank_you_message>
+	<info_message><![CDATA[<b></b>]]></info_message>
+	<no_webcam><![CDATA[Nenhuma webcam encontrada.]]></no_webcam>
+	<allow_webcam><![CDATA[In order to use this application you have to allow your webcam to be used. Please refresh the page and click allow.]]></allow_webcam>
+	<bg_color>333333</bg_color>
+	<live_webcam_bg_color>ffffff</live_webcam_bg_color>
+	<snap_bg_color>ffffff</snap_bg_color>
+	<watermark position="BOTTOM/RIGHT" >assets/watermark.png</watermark>
+	<timer>5</timer>
+</config>

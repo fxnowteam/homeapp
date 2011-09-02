@@ -1,0 +1,111 @@
+#rodapebox {
+    width: 230px;
+    height: 34px;
+    background-image: url(../nimg/top4.png);
+    position: relative;
+    top: -43px;
+    left: 895px;
+    z-index: 100000000;
+}
+#conteudo {
+    margin-top: -100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    background: none;
+}
+.window {
+	height:286px;	width: 796px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0; 
+}
+.image_reel img { float: left; margin: 0; margin-right:-7; padding: 0px; }
+.paging {
+	position: absolute;
+	bottom: 40px; right: -4px;
+	width: 178px; height:47px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 40px;
+	background: url(../img/sliderhome_paging_bg2.png) no-repeat;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+#ultimas_atualizacoes #destaques {
+	width: 800px;
+	height: 257px;
+	padding-top: 27px;
+	padding-left: 0px;
+	float: left;
+}
+#ultimas_atualizacoes #lista_ultimas {
+	width: 270px;
+	padding-top: 40px;
+        padding-left: 0px;
+}
+#ultimas_atualizacoes #lista_ultimas #titulo {
+	width: 140px;
+	height: 30px;
+	margin-left: 15px;
+	background-image: url(../nimg/objetos.jpg);
+}
+#banners {
+	margin-top: -30px;
+}
+#topo #right #loginbox {
+    width: 290px;
+    height: 33px;
+    padding-top: 38px;
+    padding-left: 12px;
+    background-image: url(../nimg/box_login.png);
+    background-repeat: no-repeat;
+    left: 187px;
+    top: 8px;
+    position: absolute;
+    z-index: -1;
+}
+#topo #right #linksbox {
+    width: 387px;
+    height: 150px;
+    padding-top: 47px;
+    padding-left: 12px;
+    background-image: url(../nimg/box_links.png);
+    background-repeat: no-repeat;
+    left: 55px;
+    top: 3px;
+    position: absolute;
+    z-index: -1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 1.8;
+}
+#topo #right #linksbox a {
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#topo #right #noticiasbox {
+    width: 300px;
+    height: 50px;
+    padding-top: 41px;
+    padding-left: 12px;
+    background-image: url(../nimg/box_noticias.png);
+    background-repeat: no-repeat;
+    left: 8px;
+    top: 10px;
+    position: absolute;
+    z-index: -1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 1.8;
+}
+#topo #right #noticiasbox a {
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+}

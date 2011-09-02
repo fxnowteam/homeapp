@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<config>
+	<snap_sound>camera_sound.mp3</snap_sound>
+	<save_sound>save_sound.mp3</save_sound>
+	<live_webcam_text>Webcam en Directo</live_webcam_text>
+	<snapshot_text>Tu Foto</snapshot_text>
+	<snap_screen_text><![CDATA[Pulsa el boton <font color="#ff9900" >HAZ FOTO</font> para tomar una foto.]]></snap_screen_text>
+	<snap_btn txt_1="HAZ FOTO" txt_2="HAZ NUEVA" />
+	<save_btn txt_1="GUARDAR FOTO" txt_2="GUARDADA" />
+	<saving_image_message><![CDATA[Guardando imagen<br/>Por favor espera!]]></saving_image_message>
+	<thank_you_message><![CDATA[Su foto ha sido guardada<br/><font color="#ff9900" >Gracias!</font>]]></thank_you_message>
+	<info_message><![CDATA[<b>Instrucciones UserBooth</b><br>Aqui pueden publicar instrucciones sobre UserBooth para sus usuarios. Se permite HTML.
+<i>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</i>]]></info_message>
+	<no_webcam><![CDATA[No hay webcam. Click aqui si quieres ver la galeria.]]></no_webcam>
+	<allow_webcam><![CDATA[Para poder usar esta aplicacion necesitas permitirle acceder a tu webcam. Es necesario recargar la pagina y darle permiso.]]></allow_webcam>
+        <bg_color>ffffff</bg_color>
+	<live_webcam_bg_color>f3f3f3</live_webcam_bg_color>
+	<snap_bg_color>f3f3f3</snap_bg_color>
+	<watermark position="BOTTOM/RIGHT" >watermark.png</watermark>
+        <timer>5</timer>
+</config>

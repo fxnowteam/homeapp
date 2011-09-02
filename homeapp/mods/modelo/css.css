@@ -1,0 +1,139 @@
+#menulateral {
+    width: 200px;
+    float: left;
+}
+#menulateral ul li {
+    list-style: none;
+    border-bottom: solid 1px #ccc;
+    border-right: dashed 1px #ccc;
+    background-color: #eee;
+    padding: 3px;
+    padding-left: 13px;
+}
+#menulateral ul li:hover {
+    background-color: #fff;
+}
+#menulateral a {
+    text-decoration: none;
+    cursor: default;
+}
+#conteudo_dti {
+    width: 750px;
+    padding-left: 50px;
+    float: left;
+}
+#conteudo_dti #addItem #link {
+    width: 40px;
+    float: left;
+}
+#conteudo_dti #addItem #label {
+    font-size: 15px;
+    color: darkgreen;
+    font-weight: bold;
+}
+#conteudo_dti #titulo {
+	width: 90%;
+}
+#conteudo_dti #listaNotas {
+	border-top: dashed 1px #ccc;
+	padding-top: 15px;
+}
+#conteudo_dti #item {
+    width: 70%;
+    border: solid 1px #ddd;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#conteudo_dti #addToDo, #altToDo, #cancToDo, #encarregado {
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+}
+#conteudo_dti #encarregado {
+    font-weight: normal;
+}
+#conteudo_dti #item, #encarregado, #addToDo, #altToDo, #cancToDo {
+    float: left;
+}
+#conteudo_dti #concl {
+    text-decoration: line-through;
+    color: #aaa;
+}
+#conteudo_dti #urgent {
+    color: #fff;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+#conteudo_dti #linha {
+    float: left;
+    padding-top: 4px;
+}
+#conteudo_dti #tarefaedit, #encarregadoedit, #anotacoesedit {
+    width: 93%;
+}
+#conteudo_dti #anotacoesedit {
+    height: 100px;
+}
+#conteudo_dti #bprocassunto, #cprocassunto {
+    width: 400px;
+}
+#conteudo_dti #procnumero, #procano {
+    width: 60px;
+}
+#conteudo_dti input {
+    padding: 5px;
+    border: solid 1px #ccc;
+    font-size: 12px;
+}
+#conteudo_dti .anotacoes {
+    width: 90%;
+    border: solid 1px #ccc;
+    padding: 5px;
+    font-family: Arial, Verdana;
+}
+#conteudo_dti #btanotacoes {
+    font-weight: bold;
+	padding: 5px;
+}
+#conteudo_dti #dataini, #datafim {
+	width: 70px;
+}
+#conteudo_dti ul li small {
+	color: #888;
+}
+#conteudo_dti #formCadPessoas #col  {
+	float: left;
+	width: 50%;
+}
+#conteudo_dti #formCadPessoas #col  input, select{
+	width: 90%;
+}
+#conteudo_dti #formCadPessoas #col label {
+	font-size: 9px;
+}
+#conteudo_dti select {
+	width: auto;
+}
+#conteudo_dti #menudtiequipamentos {
+	margin-bottom: 20px;
+}
+#conteudo_dti #entradapatrimonio label {
+	font-size: 10px;
+}
+#conteudo_dti #entradapatrimonio legend {
+	font-weight: bold;
+}
+#conteudo_dti #entradapatrimonio fieldset {
+	border: solid 1px #ccc;
+}
+#conteudo_dti #entradapatrimonio #trescolunas {
+	width: 33%;
+	float: left;
+}
+#conteudo_dti #entradapatrimonio #quatrocolunas {
+	width: 25%;
+	float: left;
+}

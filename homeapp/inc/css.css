@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Verdana;
+    font-size: 13px;
+    color: #000;
+    margin: 0px;
+    background-color: #5a4e90;
+}
+table, tr, td {
+	background-color: #fff;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+sup {
+    font-size: 9px;
+    padding-left: 3px;
+}
+img {
+    border: none;
+}
+#fesq {
+    background-image: url(../img/fundo_esq.png);
+    background-position: right;
+}
+#fdir {
+    background-image: url(../img/fundo_dir.png);
+    background-position: left;
+}
+#fesq, #fdir {
+    width: 100px;
+}
+#site {
+    background-color: #fff;
+    height: 750px;
+    vertical-align: top;
+}
+#topo {
+    padding: 20px;
+    height: 110px;
+    background-image: url(../img/topo_gg.jpg);
+    margin-bottom: -35px;
+}
+#topo #left {
+    width: 50%;
+    float: left;
+}
+#topo #right {
+    width: 50%;
+    text-align: right;
+    float: right;
+}
+#topo input {
+    font-family: Verdana, Arial;
+    font-size: 11px;
+    border: solid 1px #ddd;
+    background-color: #eee;
+    padding: 3px;
+}
+#topo input:hover {
+    background-color: #fff;
+}
+#topo #submit {
+    background-color: #ddd;
+}
+#topo #submit:hover {
+    background-color: #eee;
+}
+#topo #left #titulo {
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+#topo #left #titulo a {
+    color: #000;
+    text-decoration: none;
+}
+#topo #left #descricao {
+    font-style: italic;
+    display: none;
+}
+#submenu {
+    margin-top: -32px;
+    margin-left: 30px;
+    border-bottom: solid 1px #eee;
+    padding: 5px;
+}
+#conteudo, #rodape {
+    margin: 40px;
+    line-height: 1.8;
+}
+#conteudo {
+    font-size: 12px;
+}
+#rodape {
+    text-align: center;
+}
+#destaq16 {
+    font-size: 16px;
+    font-weight: bold;
+}
+#quote {
+    width: 320px;
+    left: 50%;
+    margin-left: -160px;
+    position: relative;
+    border-left: solid 3px #eee;
+    padding-left: 10px;
+}
+#quote_left {
+    border-left: solid 3px #eee;
+    padding-left: 10px;
+}
+#quote, #quote_left h4 {
+    font-size: 17px;
+}
+#quote textarea {
+    height: 100px;
+    font-family: Arial, Verdana;
+    font-size: 13px;
+}
+#quote #nome, #assunto, #email, #mensagem {
+    width: 250px;
+    padding: 3px;
+    border: solid 1px #ccc;
+    background-color: #eee;
+}
+#quote #nome:hover, #assunto:hover, #email:hover, #mensagem:hover {
+    background-color: #fff;
+}
+#homeleft {
+    width: 70%;
+    line-height: 1.5;
+}
+#homeright {
+    width: 30%;
+    text-align: right;
+}
+#homeright a {
+    margin: 5px;
+}
+#homeleft, #homeright {
+    margin-top: -40px;
+    float: left;
+}

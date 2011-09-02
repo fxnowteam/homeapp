@@ -1,0 +1,27 @@
+For more details please visit:
+http://userbooth.com/f.a.q/
+
+
+
+How to configure the UserBooth flash aplication?
+The flash application is very easy to use. You can modify everything from an XML configuration file. Here you can see the XML structure: 
+
+<config>
+	<snap_sound>camera_sound.mp3</snap_sound>
+	<save_sound>save_sound.mp3</save_sound>
+	<live_webcam_text>Live Webcam</live_webcam_text>
+	<snapshot_text>Snapsot</snapshot_text>
+	<snap_screen_text></snap_screen_text>
+	<snap_btn txt_1="SNAP IT" txt_2="SNAP NEW" />
+	<save_btn txt_1="SAVE IT" txt_2="SAVED" />
+	<saving_image_message>Saving image... Please wait!</saving_image_message>
+	<thank_you_message>You snapshot was saved</thank_you_message>
+	<info_message>Lorem ipsum dolor sit amet.</info_message>
+	<bg_color>333333</bg_color>
+	<live_webcam_bg_color>ffffff</live_webcam_bg_color>
+	<snap_bg_color>ffffff</snap_bg_color>
+</config>
+
+You can change the xml file from the HTML code. This will let you use multiple languages in the flash application. 
+This is the variable that you'll need to change if you want to change the configuration xml file name: 
+mainswf.addVariable("config_file", "config_eng"); 
